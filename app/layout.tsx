@@ -1,10 +1,7 @@
 import "./globals.css";
-
 import { Open_Sans } from "next/font/google";
 import Providers from "./providors";
-
 const openSans = Open_Sans({ subsets: ["latin"] });
-
 export default function RootLayout({
   children,
 }: {
